@@ -6,14 +6,14 @@ class Product {
     String pname;
     double price;
 
-    // 1. Default Constructor
+    // 1.Default Constructor
     Product() {
         pcode = 0;
         pname = "Unknown";
         price = 0;
     }
 
-    // 2. Parameterized Constructor
+    // 2.Parameterized Constructor
     Product(int c, String n, double p) {
         pcode = c;
         pname = n;
@@ -30,12 +30,12 @@ public class ProductMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // --- Creating Three Objects ---
+        // --- Creating Three Objects 
 
-        // Object 1: Hardcoded (Parameterized)
+        // Object 1: Hardcoded 
         Product p1 = new Product(101, "Laptop", 45000.00);
 
-        // Object 2: User Input (Parameterized)
+        // Object 2: User Input 
         System.out.println("Enter details for Product 2:");
 
         System.out.print("Product Code: ");
@@ -50,7 +50,7 @@ public class ProductMain {
 
         Product p2 = new Product(c2, n2, pr2);
 
-        // Object 3: User Input (Default Constructor)
+        // Object 3: User Input 
         System.out.println("Enter details for Product 3:");
 
         Product p3 = new Product();
@@ -65,10 +65,10 @@ public class ProductMain {
         System.out.print("Price: ");
         p3.price = sc.nextDouble();
 
-        // --- Comparison Logic ---
+    
         System.out.println("\n--- Product with Lowest Price ---");
 
-        Product low = p1; // Assume p1 is lowest
+        Product low = p1; 
 
         if (p2.price < low.price) {
             low = p2;
