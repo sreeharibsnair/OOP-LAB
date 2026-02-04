@@ -34,7 +34,7 @@ class Complex {
         return result;
 
         // Or:
-        // return new Complex(real - c2.real, img - c2.img);
+        //
     }
 
     // Multiply Method
