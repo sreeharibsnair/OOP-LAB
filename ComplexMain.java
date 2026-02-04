@@ -23,7 +23,7 @@ class Complex {
         return result;
 
         // Or:
-        // return new Complex(real + c2.real, img + c2.img);
+        // return new Complex
     }
 
     // Subtract Method
@@ -49,14 +49,7 @@ class Complex {
     void display() {
         System.out.println(real + " + " + img + "i");
 
-        // For standard mathematical format:
-        /*
-        if (img < 0) {
-            System.out.println(real + " - " + Math.abs(img) + "i");
-        } else {
-            System.out.println(real + " + " + img + "i");
-        }
-        */
+      
     }
 }
 
