@@ -66,7 +66,7 @@ public class ProductMain {
         p3.price = sc.nextDouble();
 
     
-        System.out.println("\n--- Product with Lowest Price ---");
+        System.out.println("\n-Product with Lowest Price --");
 
         Product low = p1; 
 
